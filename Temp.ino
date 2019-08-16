@@ -1,7 +1,7 @@
 #include<Esplora.h>
 void setup() {
   // put your setup code here, to run once:
-  pinMode(11.OUTPUT);
+  pinMode(11,OUTPUT);
   Serial.begin(9600);
 }
 
