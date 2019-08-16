@@ -37,32 +37,13 @@ void loop() {
    
      if(!strcmp(user, master)){
       lcd.print("Password Correct");
+      }
      else{
      lcd.print("Incorrect");
    }
-    
+    clearData();
 }
 
-}
-
-
-
-
-  
-
-    
-      digitalWrite(signalPin, HIGH); 
-      delay(5000);
-      digitalWrite(signalPin, LOW);
-      }
-    else{
-      lcd.print("Incorrect");
-      delay(1000);
-      }
-    
-    lcd.clear();
-    clearData();  
-  }
 }
 
 void clearData(){
